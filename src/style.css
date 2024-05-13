@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Title';
+    src: url('./font/Cedarville_Cursive/CedarvilleCursive-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Body';
+    src: url('./font/Nunito/static/Nunito-Medium.ttf') format('truetype'),
+    url('./font/Nunito/static/Nunito-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

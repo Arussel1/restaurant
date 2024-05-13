@@ -1,1 +1,5 @@
-console.log("Hello World");
+import './style.css';
+import Home from './pages/home';
+import Menu from './pages/menu';
+import About from './pages/about';
+import Contact from './pages/contact';
