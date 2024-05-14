@@ -5,3 +5,9 @@ import About from './pages/about';
 import Contact from './pages/contact';
 
 const divContent = document.querySelector("#content");
+
+
+
+
+
+Home(divContent)

@@ -116,3 +116,10 @@ div#content{
     width: 400px;
     margin: 1.25rem 0; /* Add some spacing between the image and text */
 }
+
+/*Contact */
+.contact{
+    display:flex;
+    align-items: center;
+    padding-top:2rem;
+}
