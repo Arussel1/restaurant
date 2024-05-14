@@ -16,7 +16,7 @@ export default function Contact(divContent){
     email.classList.add("email");
     email.textContent = "Email: fakeemail@fake.com";
     location.classList.add("location");
-    location.src = "/src/images/location.png";
+    location.src = Location;
     location.alt = "location";
 
     contactDescription.appendChild(address);
