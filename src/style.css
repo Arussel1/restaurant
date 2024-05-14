@@ -95,8 +95,11 @@ div#content{
 }
 
 /*Menu page*/
-.menuHeader {
+ .menuHeader {
     text-align: center;
     font-size: 2rem;
-    color: rgb(213, 216, 38);
+    color: rgb(213, 216, 38); 
+}
+.menuDescription{
+    margin-bottom: 0.5rem;
 }
