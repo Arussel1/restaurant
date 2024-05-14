@@ -1,3 +1,4 @@
+import Location from '../images/location.png'
 export default function Contact(divContent){
     divContent.innerHTML= "";
     const contact = document.createElement('div');
