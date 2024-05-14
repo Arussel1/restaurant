@@ -1,4 +1,4 @@
-import Image from './../src/images/restaurant.jpg';
+import Image from '../images/restaurant.jpg';
 export default function About(divContent){
     divContent.innerHTML = "";
 
