@@ -22,15 +22,23 @@
 /* Importance smooth */
 html {
     scroll-behavior: smooth;
+/* Webpage background image */
 }
 body {
     background-image: url('images/background.jpg');
     background-size: 2000px auto;
     background-repeat: no-repeat;
-    
-  }
+    width:100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+/* Nav bar and title */
 header{
     background-color: rgba(104, 44, 44, 0.466);
+    padding: 2px;
+    position: sticky;
+    top: 0;
 }
 h1{
     font-family: 'Title';
@@ -41,6 +49,7 @@ h1{
 nav{
     display: flex;
     justify-content: center;
+
 }
 nav > button{
     font-family: 'Body';
@@ -52,4 +61,35 @@ nav > button{
 }
 nav > button:hover{
     background-color: rgba(97, 91, 91, 0.5);
+}
+
+/* Homepage */
+div#content{
+    background-color:rgba(104, 44, 44, 0.466);
+    font-family: 'Title';
+    color:white;
+    font-size: 1.25rem;
+    height: calc(100vh - 159px);
+    padding: 0 2rem;
+}
+.homeHeader{
+    font-size: 1.5rem;
+}
+
+.box{
+    display: flex;
+}
+.box > .menu{
+    font-family: 'Body';
+    font-size: 1.25rem;
+    border: 0;
+    background: none;
+    margin-left: auto;
+    color:white;
+    width:120px;
+    height: 50px;
+}
+.box > .menu:hover{
+    background-color: rgba(185, 151, 87, 0.507);
+    border-radius: 8px;
 }
