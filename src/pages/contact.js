@@ -21,7 +21,7 @@ export default function Contact(divContent){
 
     contactDescription.appendChild(address);
     contactDescription.appendChild(phoneNumber);
-    contactDescription.appendChild(phoneNumber);
+    contactDescription.appendChild(email);
 
     contact.appendChild(contactDescription);
     contact.appendChild(location);
