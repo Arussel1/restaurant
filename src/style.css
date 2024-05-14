@@ -11,3 +11,45 @@
     font-weight: 600;
     font-style: normal;
 }
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Importance smooth */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('images/background.jpg');
+    background-size: 2000px auto;
+    background-repeat: no-repeat;
+    
+  }
+header{
+    background-color: rgba(104, 44, 44, 0.466);
+}
+h1{
+    font-family: 'Title';
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav > button{
+    font-family: 'Body';
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    padding: 1rem 5rem;
+    color: rgba(255, 255, 255, 0.74);
+}
+nav > button:hover{
+    background-color: rgba(97, 91, 91, 0.5);
+}
