@@ -22,7 +22,8 @@ export default function Home(contentDiv) {
     textBox.textContent = "Check out our menu!";
 
     const menu = document.createElement('button');
-    menu.classList.add("menu");
+    menu.classList.add("menuButton");
+    menu.classList.add("body");
     menu.textContent = "Click me";
 
     // Append elements to the box

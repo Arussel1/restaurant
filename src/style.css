@@ -79,7 +79,7 @@ div#content{
 .box{
     display: flex;
 }
-.box > .menu{
+.box > .menuButton.body{
     font-family: 'Body';
     font-size: 1.25rem;
     border: 0;
@@ -89,7 +89,7 @@ div#content{
     width:120px;
     height: 50px;
 }
-.box > .menu:hover{
+.box > .body.menuButton:hover{
     background-color: rgba(185, 151, 87, 0.507);
     border-radius: 8px;
 }
